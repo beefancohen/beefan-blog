@@ -35,7 +35,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const GitHubLink = styled.a`
+const SocialLink = styled.a`
   color: black;
   margin-left: 15px;
   text-decoration: none;
@@ -76,11 +76,10 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
-          GitHub
-        </GitHubLink>
+        {/* <NavLink to="/blog">Blog</NavLink> */}
+        <SocialLink href="https://twitter.com/beefan">Twitter</SocialLink>
+        <SocialLink href="https://instagram.com/ethybear">Instagram</SocialLink>
+        <SocialLink href="https://github.com/evcohen">GitHub</SocialLink>
       </p>
     </Content>
   </SiteHeader>

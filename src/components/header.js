@@ -77,9 +77,15 @@ const Header = ({ siteTitle }) => (
     <Content>
       <p>
         {/* <NavLink to="/blog">Blog</NavLink> */}
-        <SocialLink href="https://twitter.com/beefan">Twitter</SocialLink>
-        <SocialLink href="https://instagram.com/ethybear">Instagram</SocialLink>
-        <SocialLink href="https://github.com/evcohen">GitHub</SocialLink>
+        <SocialLink href="https://twitter.com/beefan" target="_blank">
+          Twitter
+        </SocialLink>
+        <SocialLink href="https://instagram.com/ethybear" target="_blank">
+          Instagram
+        </SocialLink>
+        <SocialLink href="https://github.com/evcohen" target="_blank">
+          GitHub
+        </SocialLink>
       </p>
     </Content>
   </SiteHeader>
